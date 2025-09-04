@@ -30,4 +30,32 @@ In essence, classes and objects bring structure and modularity to C++ programs.
 
 Algorithm
 
-1) 
+1) Calculator Algorithm
+
+- **Step 1:** Start
+
+- **Step 2:** Define a class `Calculator` with:
+  - Two float data members: `num1`, `num2`
+  - A constructor to initialize `num1` and `num2`
+
+- **Step 3:** Define member functions:
+  - `add()` returns `num1 + num2`
+  - `subtract()` returns `num1 - num2`
+  - `multiply()` returns `num1 * num2`
+  - `divide()` returns `num1 / num2` if `num2 ≠ 0`, else returns `0`
+
+- **Step 4:** In `main()`:
+  - Prompt user to input two float numbers `a` and `b`
+  - Create object `c` of class `Calculator` using `a` and `b`
+
+- **Step 5:** Call and display:
+  - `add()`
+  - `subtract()`
+  - `multiply()`
+  - `divide()` if `b ≠ 0`, else display error message
+
+- **Step 6:** End
+
+---
+
+
