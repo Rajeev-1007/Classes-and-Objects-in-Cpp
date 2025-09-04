@@ -19,9 +19,4 @@ int main() {
     cout<<"Area of rectangle: "<<r.area()<<"m.sq"<<endl;
     return 0;
 }
-OUTPUT:
-Enter length: 24
-Enter width: 23
-Area of rectangle: 552m.sq
 
-=== Code Execution Successful ===
